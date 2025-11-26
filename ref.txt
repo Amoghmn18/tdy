@@ -139,7 +139,7 @@ public class new1 {
 
 chatgpt link
 
-https://chatgpt.com/c/6925cad5-7464-8323-a072-12c7f11895e6
+https://chatgpt.com/share/69266f5d-aed0-800d-979f-a17ad7b43156
 
 Email:
 
@@ -176,4 +176,5 @@ http://my.slack.com/services/new/jenkins-ci
 
 Viva link:
 https://chatgpt.com/share/69266488-3824-8004-aefb-e100022c66b9
+
 
