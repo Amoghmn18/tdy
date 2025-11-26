@@ -1,0 +1,174 @@
+Here are the direct executable Jenkins batch commands for different file types (Python, Java, TXT, Node, etc.).
+You can copy–paste them directly into "Execute Windows batch command".
+
+
+---
+
+✅ 1. Python File
+
+Use full path to python.exe:
+
+C:\Users\amogh\AppData\Local\Programs\Python\Python313\python.exe demo.py
+
+For any Python file:
+
+C:\Users\amogh\AppData\Local\Programs\Python\Python313\python.exe <filename>.py
+
+
+---
+
+✅ 2. Java Program
+
+Compile:
+
+javac MyProgram.java
+
+Run:
+
+java MyProgram
+
+If your file name is demo.java:
+
+javac demo.java
+java demo
+
+
+---
+
+✅ 3. Text File (TXT)
+
+To display content:
+
+type file.txt
+
+To create a file:
+
+echo Hello World > file.txt
+
+
+---
+
+✅ 4. Batch File (.bat)
+
+Just call it:
+
+myfile.bat
+
+or full path:
+
+C:\path\to\script.bat
+
+
+---
+
+✅ 5. Node.js File (JavaScript)
+
+Run .js file:
+
+node file.js
+
+
+---
+
+✅ 6. PowerShell Script (.ps1)
+
+powershell -ExecutionPolicy Bypass -File script.ps1
+
+
+---
+
+✅ 7. C Program
+
+Compile:
+
+gcc program.c -o program.exe
+
+Run:
+
+program.exe
+
+
+---
+
+✅ 8. C++ Program
+
+Compile:
+
+g++ program.cpp -o program.exe
+
+Run:
+
+program.exe
+
+
+
+
+
+
+
+
+this is for c1
+package c1.bhanu;
+import java.io.FileReader;
+import java.io.IOException;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+public class new1 {
+
+
+	    public static void main(String[] args) throws IOException, ParseException {
+
+	        JSONParser jsonparser = new JSONParser();
+	        FileReader reader = new FileReader(".\\darsh\\file.json");
+
+	        Object obj = jsonparser.parse(reader);
+	        JSONObject studentobj = (JSONObject) obj;
+
+	        String firstname = (String) studentobj.get("firstname");
+	        String lastname = (String) studentobj.get("lastname");
+
+	        System.out.println("Firstname: " + firstname);
+	        System.out.println("Lastname: " + lastname);
+
+	    }
+	}
+
+
+
+chatgpt link
+
+https://chatgpt.com/c/6925cad5-7464-8323-a072-12c7f11895e6
+
+Email:
+
+https://chatgpt.com/share/6925fe69-3418-8004-aaa1-74860949c01f
+
+
+echo Waiting...
+ping 127.0.0.1 -n 6 > nul
+
+
+STEPS TO RUN C1 :)
+
+-->Open Eclipse IDE, choose file->new->maven-project->next->set catalog as internal->select "org.apache.maven.archetypes" as grp id and "maven-archetype-quickstart" as Artifact id and "1.1" as Version-> Give name for Artifact Id-> Finish
+
+-->Once the run is is over, click Y-> pom.xml file gets created-> go to browser and search for maven repository->open the first link and search for JSON simple(by google)->click on it and select 1.1-> copy the code there-> paste it in the dependency tag in pom.xml file and save it->
+
+-->Create a folder inside the project(say for example folder JSON)->Right click on it and create a new file inside it(say for example file name student.json)
+
+-->Create a java file inside default package(inside src/test/java)(say for example file name readJSON.java)-> copy paste the java code there and save it
+
+-->Insert contents for student.json in a proper format.
+			 
+{             "firstname" : "Amogh",
+	      "lastname" : "MN"          }
+
+-->Save all the files bfr running n make sure there is no errors and note that u hv given the path correctly in java file(line no 15)
+		( FileReader reader = new FileReader(".\\JSON\\student.json"); )
+
+-->Run the file ull get the below output:
+		firstname: Amogh
+                lastname: MN
+
