@@ -172,3 +172,8 @@ STEPS TO RUN C1 :)
 		firstname: Amogh
                 lastname: MN
 
+http://my.slack.com/services/new/jenkins-ci
+
+Viva link:
+https://chatgpt.com/share/69266488-3824-8004-aefb-e100022c66b9
+
